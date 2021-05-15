@@ -6,7 +6,7 @@
 # --- Required options --- #
 
 # Name of website
-title: My Homepage
+title: Ishan Kapnadak
 
 # Your name to show in the footer
 author: Ishan Kapnadak
@@ -15,10 +15,10 @@ author: Ishan Kapnadak
 
 navbar-links:
   About Me: "aboutme"
-  Resources:
-    - Beautiful Jekyll: "https://beautifuljekyll.com"
-    - Learn markdown: "https://www.markdowntutorial.com/"
-  Author's home: "https://deanattali.com"
+  #Resources:
+   # - Beautiful Jekyll: "https://beautifuljekyll.com"
+   # - Learn markdown: "https://www.markdowntutorial.com/"
+  #Author's home: "https://deanattali.com"
 
 # --- Logo --- #
 
@@ -40,18 +40,18 @@ round-avatar: true
 # Uncomment the links you want to show and add your information to each one.
 social-network-links:
   email: "ishankapnadak@gmail.com"
-  facebook: deanattali
-  github: daattali
-  twitter: daattali
-  patreon: DeanAttali
-  youtube: c/daattali
+  facebook: ishan.kapnadak
+  github: ishankapnadak
+#  twitter: daattali
+#  patreon: DeanAttali
+#  youtube: c/daattali
 #  medium: yourname
 #  reddit: yourname
-#  linkedin: daattali
+   linkedin: ishan-kapnadak
 #  xing: yourname
 #  stackoverflow: "3943160/daattali"
 #  snapchat: deanat78
-#  instagram: deanat78
+   instagram: ishan.kapnadak
 #  spotify: yourname
 #  telephone: +14159998888
 #  steam: deanat78
@@ -65,7 +65,7 @@ social-network-links:
 
 # If you want to show a link to an RSS in the footer, add the site description here.
 # If you don't want to show an RSS link, remove the following line.
-rss-description: This website is a virtual proof that I'm awesome
+# rss-description: This website is a virtual proof that I'm awesome
 
 # --- General options --- #
 
@@ -190,7 +190,7 @@ date_format: "%B %-d, %Y"
 # --- You don't need to touch anything below here (but you can if you want) --- #
 
 # Output options (more information on Jekyll's site)
-timezone: "America/Toronto"
+timezone: "India/Mumbai"
 markdown: kramdown
 highlighter: rouge
 permalink: /:year-:month-:day-:title/
