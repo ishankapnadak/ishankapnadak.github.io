@@ -85,24 +85,24 @@ author:
   bio              : "Senior Undergraduate <br> Electrical Engineering, IIT Bombay"
   location         : "Mumbai, India"
   employer         :
-  pubmed           : "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
-  googlescholar    : "http://yourfullgooglescholarurl.com"
+  pubmed           : #"https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
+  googlescholar    : #"http://yourfullgooglescholarurl.com"
   email            :
   researchgate     :  # example: "https://www.researchgate.net/profile/yourprofile"
   uri              :
   bitbucket        :
-  codepen          :
+  codepen          : 
   dribbble         :
   flickr           :
-  facebook         :
+  facebook         : "https://www.facebook.com/ishan.kapnadak/"
   foursquare       :
   github           : "ishankapnadaks"
   google_plus      :
-  keybase          :
-  instagram        :
+  keybase          : 
+  instagram        : "https://www.instagram.com/ishankapnadak/"
   impactstory      : #"https://profiles.impactstory.org/u/xxxx-xxxx-xxxx-xxxx"
   lastfm           :
-  linkedin         :
+  linkedin         : "https://www.linkedin.com/in/ishan-kapnadak/"
   orcid            : 
   pinterest        :
   soundcloud       :
