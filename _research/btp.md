@@ -1,10 +1,20 @@
 ---
 title: "Bachelor Thesis Project"
-collection: research
+category: research
+excerpt: 'BTP'
 permalink: /research/btp
-excerpt: 'My Bachelor Thesis Project at IITB in Autumn 2022'
-date: 2022-07-29
 venue: "IIT Bombay"
+date: 2020-11-25
 ---
 
-I am currently also working with Professor [Jayakrishnan Nair](https://www.ee.iitb.ac.in/~jayakrishnan.nair/) (IITB) and a colleague of mine in the area of pure exploration in multi-armed bandits, under the fixed budget setting. We wish to formulate and propose an adaptive any-time algorithm that builds on the classical Successive Rejects algorithm. In particular, we are analyzing the decay rate of the probability of the error as the budget for the task grows. We hope that our algorithm asymptotically comes within a universal constant of the information-theoretic lower bound on this decay rate, as opposed to the Successive Rejects algorithm which comes within a logarithmic factor of this lower bound. We have already coded up a rudimentary implementation of our proposed algorithm and have obtained some promising results regarding the decay rate. Currently, we are working on proving the theoretical guarantees that we expect our algorithm to achieve. 
+This is an introductory course in Calculus for undergraduates in their freshmen year. 
+
+I was a TA for the Autumn 2020 offering of this course under Professor [Ravi Ragunathan](http://www.math.iitb.ac.in/~ravir/). The course covers the following. 
+
+* The convergence of sequences and series.
+* A review of limits, continuity, and differentiability.
+* The Mean Value Theorem, Taylor's Theorem, power series, maxima and minima.
+* Riemann integrals, the Fundamental Theorem of Calculus, improper integrals, applications to area and volume. 
+* Partial derivatives, the gradient and directional derivatives, the chain rule, maxima and minima in several variables, Lagrange multipliers. 
+
+My solutions for the tutorial problems can be viewed [here](https://ishankapnadak.github.io/files/ma109-tut-solutions.pdf">here)
