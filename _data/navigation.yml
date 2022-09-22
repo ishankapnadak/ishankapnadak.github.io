@@ -7,7 +7,10 @@ main:
     url: /projects/
 
   - title: "Teaching"
-    url: /teaching/    
+    url: /teaching/   
+
+  - title: "Academics"
+    url: /academics/ 
 
   - title: "CV"
     url: /cv/    
