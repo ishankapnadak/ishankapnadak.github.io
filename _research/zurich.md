@@ -3,7 +3,6 @@ title: "Micro-Multiphysics Agent-Based Modeling of Human Bone Remodeling: Explor
 collection: research
 permalink: /research/zurich
 excerpt: 'My internship at the Laboratory for Bone Biomechanics at ETH Zürich in the summer of 2022'
-date: 2022-05-16
 venue: "ETH Zürich"
 ---
 
