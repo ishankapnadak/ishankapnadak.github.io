@@ -31,7 +31,7 @@ layout: default
         {% if page.collection == 'teaching' %}
           <p> {{ page.type }}, <i>{{ page.venue }}</i>, {{ page.date | default: "" | date: "%Y" }} </p>
         {% elsif page.collection == 'research' %}
-          <p> <i>{{ page.venue }}</i>, {{ page.date | default: "" | date: "%Y" }} </p>
+          <p> <i>{{ page.venue }}</i> {{ page.date | default: "" | date: "%Y" }} </p>
         {% endif %}
         
              
