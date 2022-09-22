@@ -12,5 +12,8 @@ main:
   - title: "CV"
     url: /cv/    
 
+  - title: "Music"
+    url: /music/
+
   - title: "Contact"
     url: /contact/
