@@ -1,6 +1,6 @@
 ---
 title: "Bachelor Thesis Project"
-category: research
+collection: research
 excerpt: 'BTP'
 permalink: /research/btp
 venue: "IIT Bombay"
