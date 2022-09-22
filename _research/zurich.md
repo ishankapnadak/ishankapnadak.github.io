@@ -4,6 +4,7 @@ collection: research
 permalink: /research/zurich
 excerpt: 'My internship at the Laboratory for Bone Biomechanics at ETH Zürich in the summer of 2022'
 date: 2022-05-16
+venue: "ETH Zürich"
 ---
 
 During the summer following my third year at IITB, I had the pleasure of interning at the [Laboratory for Bone Biomechanics](https://www.bone.ethz.ch/), [ETH Zürich](https://ethz.ch/en.html) under Professor [Ralph Müller](https://hest.ethz.ch/en/studies/health-sciences-and-technology/master-hst/majors/tutors/tutors-a-z/ralph-mueller.html), in the beautiful city of Zürich, Switzerland. I primarily worked with Prof. Müller's Ph.D. student, [Charles Ledoux](https://hest.ethz.ch/en/department/people/people-a-z/personen-detail.MjU0MTM0.TGlzdC8zMzQsLTQ1MTk1NTQ5OA==.html), in the area of agent-based modeling of human bone remodeling. In particular, I explored the effect of the dual action effect of romosozumab, an anabolic sclerostin inhibitor used to treat osteoporosis. I worked on adapting the existing model of the lab to include reactions relevant to the action of romosozumab. I also added an exponential activation function to incorporate a sclerostin-dependent production of RANKL, a type II membrane protein. This adapted model was then used to obtain changes in bone formation and resorption post romosozumab injection. These bone turnover trends matched quite closely with clinical trials, with bone mineral density increasing sharply and sclerostin levels dropping sharply post romosozumab injection. 

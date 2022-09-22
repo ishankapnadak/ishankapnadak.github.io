@@ -3,6 +3,7 @@ title: "Vector-based Navigation in Artificial Agents"
 collection: research
 permalink: /research/indiana
 excerpt: 'My remote internship at Indiana University Bloomington in the summer of 2021'
+venue: "Indiana University, Bloomington"
 date: 2021-05-15
 ---
 
