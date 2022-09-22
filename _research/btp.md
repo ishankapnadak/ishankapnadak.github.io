@@ -1,7 +1,7 @@
 ---
 title: "Bachelor Thesis Project"
 collection: research
-excerpt: 'Bachelor Thesis Project'
+excerpt: 'My Bachelor Thesis Project at IIT Bombay, 2022'
 permalink: /research/btp
 venue: "IIT Bombay"
 ---
