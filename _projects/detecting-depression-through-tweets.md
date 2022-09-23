@@ -4,7 +4,7 @@ collection: projects
 #type: "Self Reading"
 permalink: /projects/detecting-depression-through-tweets
 venue: "Centre for Machine Intelligence and Data Science, IIT Bombay"
-excerpt: 'A sentiment classifier to predict if a person is suffering from depression based on their recent tweets'
+excerpt: 'Course Project: Programming for Data Science'
 #date: 2020-11-25
 ---
 

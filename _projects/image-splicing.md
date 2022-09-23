@@ -3,8 +3,8 @@ title: "Exposing Image Splicing with Inconsistent Local Noise Variances"
 collection: projects
 #type: "Self Reading"
 permalink: /projects/image-splicing
-venue: "Department of Electrical Engineering, IIT Bombay"
-excerpt: 'A short presentation on the connections between coding theory, error correcting codes, and cryptography'
+venue: "Department of Computer Science & Engineering, IIT Bombay"
+excerpt: 'Course Project: Digital Image Processing'
 #date: 2020-11-25
 ---
 

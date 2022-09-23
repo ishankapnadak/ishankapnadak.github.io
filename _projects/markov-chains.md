@@ -4,7 +4,7 @@ collection: projects
 #type: "Self Reading"
 permalink: /projects/markov-chains
 venue: "Department of Electrical Engineering, IIT Bombay"
-excerpt: 'A rigorous exposition to Markov chains and their applications in queueing theory'
+excerpt: 'Course Notes: Markov Chains and Queueing Systems'
 #date: 2020-11-25
 ---
 

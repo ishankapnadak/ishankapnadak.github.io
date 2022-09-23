@@ -4,7 +4,7 @@ collection: projects
 #type: "Self Reading"
 permalink: /projects/digital-signal-processing
 venue: "Department of Electrical Engineering, IIT Bombay"
-excerpt: 'An introductory course in digital signal processing'
+excerpt: 'Course Notes: Digital Signal Processing and its Applications'
 #date: 2020-11-25
 ---
 

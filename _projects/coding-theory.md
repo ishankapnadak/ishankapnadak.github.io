@@ -4,7 +4,7 @@ collection: projects
 #type: "Self Reading"
 permalink: /projects/coding-theory
 venue: "Department of Electrical Engineering, IIT Bombay"
-excerpt: 'A short presentation on the connections between coding theory, error correcting codes, and cryptography'
+excerpt: 'Course Project: Error Correcting Codes'
 #date: 2020-11-25
 ---
 
