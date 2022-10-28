@@ -54,4 +54,24 @@ If a language $$L \subseteq \{0,1\}^*$$ satisfies only condition 1 but not neces
 
 **Theorem.** If an NP-complete problem is polynomial-time solvable, then P $$=$$ NP. Equivalently, if any problem in NP is not polynomial-time solvable, then no NP-complete problem is polynomial-time solvable. 
 
-This theorem reinforces the idea that NP-complete problems are the 'hardest' NP problems. 
+This theorem reinforces the idea that NP-complete problems are the 'hardest' NP problems. As a class of problems, we can clearly see that NP-complete hold a special space - they are the hardest problems in NP. As such any polynomial time solution to an NP-complete problem warrants that P $$=$$ NP. A lot of crucial problems can be reduced to NP-complete problems via the following crucial theorem.
+
+**Theorem.** If $$L^{\prime} \leq_p L$$ and $$L^{\prime}$$ is NP-complete, then $$L$$ is NP-hard. Additionally, if $$L \in \text{NP}$$, then $$L$$ is NP-complete. 
+
+A proof is left as an exercise. There is a lot of literature regarding NP-complete problems and reductions from one problem to another. Here, we simply list an important class of NP-complete problems without proof. 
+
+1. **CIRCUIT-SAT.** To determine whether a given Boolean circuit is satisfiable is NP-complete.
+2. **3CNF-SAT.** A Boolean formula $$\Phi$$ of the form $$C_1 \wedge C_2 \wedge \cdots \wedge C_m$$ where each clause $$C_i$$ has the form $$(l_1^i \vee l_2^i \vee l_3^i)$$ is called a 3CNF formula. To determine whether a given 3CNF formula is satisfiable is an NP-complete problem.
+3. **CLIQUE.** Given a graph $$G = (V,E)$$, a subset $$V_0 \subseteq V$$ is called a *clique* if $$\forall u,v \in V_0, u \neq v$$, we have $$(u,v) \in E$$. Determining whether a given graph $$G$$ has a clique of size $$k$$ is an NP-complete problem.
+4. **IND.** Given a graph $$G = (V,E)$$, a subset $$V_0 \subseteq V$$ is called an *independent set* if $$\forall u,v \in V_0, u \neq v$$, we have $$(u,v) \notin E$$. Determining whether a given graph $$G$$ has an independent set of size $$k$$ is an NP-complete problem.
+5. **GRAPH-COLORING.** A graph $$G = (V,E)$$ is $$k$$-*colorable* if there exists a function $$f \colon V \to \{1, \ldots, k\}$$ such that $$(u,v) \in E \implies f(u) \neq f(v)$$. Determing whether a given graph is $$k$$-colorable is an NP-complete problem for $$k > 2$$. Determining whether a graph is $$2$$-colorable is in P. 
+6. **HAM-CYCLE.** Given an undirected graph $$G = (V,E)$$, a *Hamiltonian cycle* is a simple cycle where each vertex occurs exactly once. Determining whether a given graph $$G$$ has a Hamiltonian cycle is an NP-complete problem.
+7. **TSP.** Given a complete directed graph $$G = (V,V \times V)$$ with non-negative integer weights $$c \colon V \times V \to \mathbb{N}$$, does there exist a Hamiltonian cycle (called a tour) with weight atmost $$k$$? The above problem is called the *Travelling Salesman Problem* and is NP-complete.
+8. **SUBSET-SUM.** Given a finite set of positive integers $$S$$ and an integer $$t > 0$$, does there exist a subset $$S^{\prime} \subseteq S$$ such that $$\sum_{i \in S^{\prime}} i = t$$? This problem is called the *Subset-Sum Problem* and is NP-complete.
+
+One thing that stands out is that all NP-complete problems (and in particular, the eight above) have, in some sense, equivalent complexity. If one is able to solve any one of these problems tractably (namely, in polynomial-time), the same holds true for all these problems, and in fact, for all NP problems.
+
+### References
+
+1. [Lectures by Prof. Paritosh Pandya, IITB](https://www.cse.iitb.ac.in/~pandya58/cs218m/algo.html)
+2. [*INtroduction to Algorithms*, CLRS](https://en.wikipedia.org/wiki/Introduction_to_Algorithms)
