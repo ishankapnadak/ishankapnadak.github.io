@@ -50,9 +50,9 @@ With this, we define $$\text{NP}$$-complete problems as follows. A language $$L 
 1. $$L \in \text{NP}$$, and
 2. $$L^{\prime} \leq_p L$$ for every $$L^{\prime} \in \text{NP}$$. 
 
-If a language $$L \subseteq \{0,1\}^*$$ satisfies only condition 1 but not necessarily 2, we say that $$L$$ is $$\text{NP}$$-hard. We let $$\text{NPC}$$ be the class of all $$\text{NP}$$-complete problems. The question $\text{P} = \text{NP}$$ is closely related to solving $$\text{NP}$$-complete problems through the following theorem (the proof of which is left as an exercise). 
+If a language $$L \subseteq \{0,1\}^*$$ satisfies only condition 1 but not necessarily 2, we say that $$L$$ is $$\text{NP}$$-hard. We let $$\text{NPC}$$ be the class of all $$\text{NP}$$-complete problems. The question $$\text{P} = \text{NP}$$ is closely related to solving $$\text{NP}$$-complete problems through the following theorem (the proof of which is left as an exercise). 
 
-**Theorem.** If an $$\text{NP}$$-complete problem is polynomial-time solvable, then $\text{P} = \text{NP}$$. Equivalently, if any problem in $$\text{NP}$$ is not polynomial-time solvable, then no $$\text{NP}$$-complete problem is polynomial-time solvable. 
+**Theorem.** If an $$\text{NP}$$-complete problem is polynomial-time solvable, then $$\text{P} = \text{NP}$$. Equivalently, if any problem in $$\text{NP}$$ is not polynomial-time solvable, then no $$\text{NP}$$-complete problem is polynomial-time solvable. 
 
 This theorem reinforces the idea that $$\text{NP}$$-complete problems are the 'hardest' $$\text{NP}$$ problems. As a class of problems, we can clearly see that $$\text{NP}$$-complete hold a special space - they are the hardest problems in $$\text{NP}$$. As such any polynomial time solution to an $$\text{NP}$$-complete problem warrants that $$ \text{P} = \text{NP}$$. A lot of crucial problems can be reduced to $$\text{NP}$$-complete problems via the following crucial theorem.
 
