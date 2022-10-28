@@ -34,7 +34,10 @@ $$
   L = \left\{x \in \{0,1\}^* \colon \text{there exists a certificate } y \text{ with } \lvert y \rvert = \mathcal{O}\left( \lvert x \rvert^k \right) \text{ such that } A(x,y) = 1 \right\}
 $$
 
-$$A$$ is said to *verify* $$L$ in polynomial time. Note that it is true by definition that $$P \subseteq NP$$, since every polynomial-time solvable problem is polynomial-time verifiable. A more interesting question to ask is where P $$=$$ NP. This remains an open problem in computer science, and is in fact one of the [Millenium Problems](https://www.google.com/search?q=millennium+problems&oq=millenium+pr&aqs=chrome.1.69i57j0i10i433i512j0i10i512l4j46i10i175i199i512j0i10i512l2j0i10i457i512.2468j0j7&sourceid=chrome&ie=UTF-8). Most computer scientists are of the opinion that the two are not the same class - that is, there is some polynoimal-time verifiable algorithm that is not polynomial-time solvable. A proof, though, ywt alludes us. A more compelling evidence of $$\text{P} \neq \text{NP}$$ is the existence of the NP-complete problems which we tackle next. 
+$$A$$ is said to *verify* $$L$$ in polynomial time. Note that it is true by definition that $$P \subseteq NP$$, since every polynomial-time solvable problem is polynomial-time verifiable. A more interesting question to ask is where P $$=$$ NP. This remains an open problem in computer science, and is in fact one of the [Millenium Problems](https://www.google.com/search?q=millennium+problems&oq=millenium+pr&aqs=chrome.1.69i57j0i10i433i512j0i10i512l4j46i10i175i199i512j0i10i512l2j0i10i457i512.2468j0j7&sourceid=chrome&ie=UTF-8). Most computer scientists are of the opinion that the two are not the same class - that is, there is some polynoimal-time verifiable algorithm that is not polynomial-time solvable. A proof, though, ywt alludes us. A more compelling evidence of $$\text{P} \neq \text{NP}$$ is the existence of the NP-complete problems which we tackle next. 
 
 ## Polynomial-time Reduction and NP-Complete Problems
 
+Let $$L_1, L_2$$ be two decisiom problems. A function $$f \colon \{0,1\}^* \to \{0,1\}^*$$ is called a *polynomial-time* reduction from $$L_1$$ to $$L_2$$ if 
+1. There exists $$c$$ such that $$f(x)$$ is computable in time $$\mathcal{O}(\lvert x \rvert^c)$$, and
+2. $$x \in L_1 \iff f(x) \in L_2$$. 
