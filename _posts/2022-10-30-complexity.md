@@ -25,3 +25,11 @@ An algorithm $$A$$ *accepts* (resp. *rejects*) a string $$x \in \{0,1\}^*$$ if t
 $$
   \text{P} := \left\{ L \subseteq \{0,1\}^* \colon \text{there exists an algorithm } A \text{ that decides } L \text{ in polynomial time} \right\}.
 $$
+
+Intuitively, problems in class $$P$$ are those that can be solved easily. For example, multiplication of two integers, division of two integers, etc. There are some algorithms for which we are able to *verify* a given solution in polynomial time. Problems of this type belong to class NP (Non-deterministic Polynomial-time Verifiable Problems). For example, it may be a hard problem to determine if a given graph has a Hamiltonian cycle (a simple cycle that contains each vertex) seems to be a hard problem. But if I give you a particular cycle and claim that it is a Hamiltonian cycle, it is easy to verify this in polynomial time. We define this class of problems formally.
+
+A **verification algorithm** is a two-input algorithm $$A$$ where one argument is a regular binary input string $$x$$ and the other is a binary string $$y$$ called the *certificate*. A two-input algorithm $$A$$ *verifies* an input $$x$$ if there exists a certificate $$y$$ such that $$A(x,y) = 1$$. We now define the complexity class NP as follows. A language $$L$$ belongs to NP iff there exists a polynomial-time algorithm $$A$$ and a constant $$k$$ such that
+
+$$
+  L = \left\{x \in \{0,1\}^* \colon \text{there exists a certificate } y \text{ with } \lvert y \rvert = \mathcal{O}\left( \lvert x \rvert^k \right) \text{ such that } A(x,y) = 1 \right\}
+$$
