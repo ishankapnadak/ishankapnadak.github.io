@@ -1,0 +1,14 @@
+---
+layout: archive
+title: "Posts"
+permalink: /posts/
+author_profile: true
+---
+
+{% include base_path %}
+
+Over the course of my undergraduate studies at IITB, I have taken up several projects including course projects and reading projects. Some of them are listed below. 
+
+{% for post in site.posts reversed %}
+  {% include archive-single.html %}
+{% endfor %}
