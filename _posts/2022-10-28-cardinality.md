@@ -45,3 +45,22 @@ $$
 Furthermore, each rational in the unit interval appears exactly once in the above list and every number in the list is a rational in $$[0,1]$$. We can then clearly define a bijection from $$\mathbb{Q} \cap [0,1]$$ to $$\mathbb{N}$$ mapping $$\frac{p}{q}$$ to its index in the above list. This proves that $$\mathbb{Q} \cap [0,1]$$ are countable. 
 
 We are not entirely done yet. To go from the rationals in the unit interval to the set of all rationals, we require one crucial theorem. Stated plainly, a countable union of countable sets is countable. A proof for this theorem is beyond the scope of this post, but can be viewed online. Equipped with this knowledge, we extend our result to the whole of $$\mathbb{Q}$$. To do so, we define $$ Q_n := \mathbb{Q} \cap [n, n+1]$$ for $$n \in \mathbb{Z}$$. We have already shown that $$Q_0$$ is countable. A similar argument shows that $$Q_n$$ is countable for each $$n \in \mathbb{Z}$$. Furthermore, since $$\mathbb{Z}$$ is countable, $$\bigcup_{n \in \mathbb{Z}} Q_n$$ is a countable union. But, the latter is just $$\mathbb{Q}$$, and thus we have represented $$\mathbb{Q}$$ as a countable union of countable sets. It follows that $$\mathbb{Q}$$ is countable. 
+
+### Uncountability of Reals
+
+Countable sets are sets $$E$$ with cardinality $$\lvert E \rvert \leq \lvert \mathbb{N} \rvert$$. Naturally, a set $$E$$ is said to be **uncountable** if $$\lvert E \rvert > \lvert \mathbb{N} \rvert$$. Stated more explicitly, a set $$E$$ is uncountable if there is an injection from $$E$$ to $$\mathbb{N}$$ but no bijection from $$E$$ to $$\mathbb{N}$$. One interesting example of an uncountable set is the set of infinite binary strings, a proof of which uses Cantor's famous 'diagonal argument'.
+
+**Theorem.** The set of all infinite binary strings $$\{0, 1\}^{\infty}$$ is uncountable.
+
+*Proof.* It is easy to produce an injection from $$\mathbb{N}$$ to $$\{0, 1\}^{\infty}$$ and we leave it as an exercise to the reader to do so. Assume to the contrary that there is also a bijection $$ f \colon \{0, 1\}^{\infty} \to \mathbb{N}$$. The set of infinite binary strings can then be listed as
+
+$$ 
+  \begin{pmatrix}
+    a_{11} & a_{12} & a_{13} & \cdots \\
+    a_{21} & a_{22} & a_{23} & \cdots \\
+    a_{31} & a_{32} & a_{33} & \cdots \\
+    \vdots & \vdots & \vdots & \ddots
+  \end{pmatrix}
+$$
+
+where $$a_{ij}$$ represents the $$j^{\text{th}}$$ bit of the $$i^{\text{th}}$$ string.
