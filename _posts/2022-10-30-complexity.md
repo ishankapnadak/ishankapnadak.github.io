@@ -38,6 +38,10 @@ $$A$$ is said to *verify* $$L$$ in polynomial time. Note that it is true by defi
 
 ## Polynomial-time Reduction and NP-Complete Problems
 
-Let $$L_1, L_2$$ be two decisiom problems. A function $$f \colon \{0,1\}^* \to \{0,1\}^*$$ is called a *polynomial-time* reduction from $$L_1$$ to $$L_2$$ if 
+Let $$L_1, L_2$$ be two decision problems. A function $$f \colon \{0,1\}^* \to \{0,1\}^*$$ is called a *polynomial-time* reduction from $$L_1$$ to $$L_2$$ if 
 1. There exists $$c$$ such that $$f(x)$$ is computable in time $$\mathcal{O}(\lvert x \rvert^c)$$, and
 2. $$x \in L_1 \iff f(x) \in L_2$$. 
+
+If such an $$f$$ exists we write $$L_1 \leq_p L_2$$. Intuitively, this means that any instance of $$L_1$$ can be 'rephrased' to an instance of $$L_2$$ in polynomial time. Moreover, providing an answer to $$f(x) \in L_2$$ instantly provides us an answer to $$x \in L_1$$. If we are able to find a polynomial-time algorithm $$L_2$$, this reduction lends itself to give us a polynomial time algorithm for $$L_1$$ as well. This is formalized as follows.
+
+**Lemma.** If $$L_1, L_2 \subseteq \{0,1\}^*$$ are languages such that $$L_1 \leq_p L_2$$, then $$L_2 \in \text{P} \implies L_1 \in \text{P}$$.
