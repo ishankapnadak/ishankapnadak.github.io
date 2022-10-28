@@ -74,7 +74,7 @@ $$
 Is $$g(\cdot)$$ as defined above a bijection? On the face of it, it appears so. But it isn't. The function $$g$$ maps $$\{0,1\}^{\infty}$$ ''almost bijectively'' to $$[0,1]$$. The only points of issue are the 'dyadic rationals', that is, rationals of the form $$\frac{a}{2^b}$$. These numbers have two pre-images. For example, $$g(1000 \cdots) = g(0111 \cdots) = \frac{1}{2}$$. This doesn't post a big problem though. Note that the dyadic rationals are a subset of the rationals and are thus countable. We can order them very naturally as per the following list
 
 $$
-  \mathcal{D} = \left{ d_1 = \frac{1}{2}, d_2 = \frac{1}{4}, d_3 = \frac{3}{4}, d_4 = \frac{1}{8}, d_5 = \frac{3}{8}, d_6 = \frac{5}{8}, d_7 = \frac{7}{8}, \cdots \right}.
+  \mathcal{D} = \left\{ d_1 = \frac{1}{2}, d_2 = \frac{1}{4}, d_3 = \frac{3}{4}, d_4 = \frac{1}{8}, d_5 = \frac{3}{8}, d_6 = \frac{5}{8}, d_7 = \frac{7}{8}, \cdots \right\}.
 $$
 
 We use this to explicitly construct a bijection as follows. Define $$ f \colon \{0,1\}^{\infty} \to [0,1]$$ as
@@ -87,4 +87,4 @@ $$
   \end{cases}
 $$
 
-This is a bijection, proving that $$[0,1]$$. To go from $$[0,1]$$ to $$\mathbb{R}$$ is fairly straightforward, by considering a bijection from $$(0,1)$$ to $$\mathbb{R}$$. One possible bijection is $$ x \mapsto \tan\left( \pi x - \frac{pi}{2} \right). The set of irrationals is simply $$\mathbb{R} \setminus \mathbb{Q}$$. Since $$\mathbb{R}$$ is uncountable and $$\mathbb{Q}$$ is countable, it follows that the irrationals are uncountable (Hint: prove by contradiction).
+This is a bijection, proving that $$[0,1]$$. To go from $$[0,1]$$ to $$\mathbb{R}$$ is fairly straightforward, by considering a bijection from $$(0,1)$$ to $$\mathbb{R}$$. One possible bijection is $$ x \mapsto \tan\left( \pi x - \frac{pi}{2} \right)$$. The set of irrationals is simply $$\mathbb{R} \setminus \mathbb{Q}$$. Since $$\mathbb{R}$$ is uncountable and $$\mathbb{Q}$$ is countable, it follows that the irrationals are uncountable (Hint: prove by contradiction).
