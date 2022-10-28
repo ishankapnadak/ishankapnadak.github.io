@@ -63,4 +63,4 @@ $$
   \end{pmatrix}
 $$
 
-where $$a_{ij}$$ represents the $$j^{\text{th}}$$ bit of the $$i^{\text{th}}$$ string.
+where $$a_{ij}$$ represents the $$j^{\text{th}}$$ bit of the $$i^{\text{th}}$$ string. Now, consider the binary string formed by looking at all the diagonal elements above and complementing each bit. This gives us the string $$\overline{a} = \overline{a}_{11} \overline{a}_{22} \overline{a}_{33} \cdots $$ where $$\overline{a}_{ij}$$ denotes the complement of bit $$a_{ij}$$.
