@@ -65,10 +65,24 @@ $$
 
 where $$a_{ij}$$ represents the $$j^{\text{th}}$$ bit of the $$i^{\text{th}}$$ string. Now, consider the binary string formed by looking at all the diagonal elements above and complementing each bit. This gives us the string $$\overline{a} = \overline{a}_{11} \overline{a}_{22} \overline{a}_{33} \cdots $$ where $$\overline{a}_{ij}$$ denotes the complement of bit $$a_{ij}$$. Now, let $$f(\overline{a}) = k$$ which means that the string $$\overline{a}$$ occurs in the $$k^{\text{th}}$$ position in the above table. Note that the $$k^{\text{th}}$$ bit of $$\overline{a}$$ is $$\overline{a}_{kk}$$ by definition, whereas the $$k^{\text{th}}$$ bit of the $$k^{\text{th}}$$ string in the table above is $$a_{kk}$$ which is a contradiction. It then follows that no such bijection exists and $$\{0,1\}^{\infty}$$ is thus uncountable. 
 
-Next, we prove that the unit interval $$[0,1]$$ is uncountable. To do so, we simply prove that it is equicardinal with the set of infinite binary strings, from which it follows that it is uncountable. We come up with a bijection from $$\{0,1\}^{\infty}$$ to $$[0,1]$$. One natural way to do is to consider the infinite binary string to be the bonary expansion of a number in $$[0,1]$$ (that is, the string represents the binary expansion post the binary point). For any infinite binart string $$ x = (x_1, x_2, \ldots) \in \{0,1\}^{\infty}$$, we define 
+Next, we prove that the unit interval $$[0,1]$$ is uncountable. To do so, we simply prove that it is equicardinal with the set of infinite binary strings, from which it follows that it is uncountable. We come up with a bijection from $$\{0,1\}^{\infty}$$ to $$[0,1]$$. One natural way to do is to consider the infinite binary string to be the binary expansion of a number in $$[0,1]$$ (that is, the string represents the binary expansion post the binary point). For any infinite binary string $$ x = (x_1, x_2, \ldots) \in \{0,1\}^{\infty}$$, we define 
 
 $$
   g(x) = \sum_{k=1}^{\infty} x_k \cdot \frac{1}{2^k}.
 $$
 
-Is $$g(\cdot)$$ as defined above a bijection? On the face of it, it appears so. But it isn't. The function $$g$$ maps $$\{0,1\}^{\infty}$$ ''almost bijectively'' to $$[0,1]$$. The only points of issue are the 'dyadic rationals', that is, rationals of the form $$\frac{a}{2^b}$$. These numbers have two pre-images. For example, $$g(1000 \cdots) = g(0111 \cdots) = \frac{1}{2}$$. 
+Is $$g(\cdot)$$ as defined above a bijection? On the face of it, it appears so. But it isn't. The function $$g$$ maps $$\{0,1\}^{\infty}$$ ''almost bijectively'' to $$[0,1]$$. The only points of issue are the 'dyadic rationals', that is, rationals of the form $$\frac{a}{2^b}$$. These numbers have two pre-images. For example, $$g(1000 \cdots) = g(0111 \cdots) = \frac{1}{2}$$. This doesn't post a big problem though. Note that the dyadic rationals are a subset of the rationals and are thus countable. We can order them very naturally as per the following list
+
+$$
+  \mathcal{D} = \left{ d_1 = \frac{1}{2}, d_2 = \frac{1}{4}, d_3 = \frac{3}{4}, d_4 = \frac{1}{8}, d_5 = \frac{3}{8}, d_6 = \frac{5}{8}, d_7 = \frac{7}{8}, \cdots \right}.
+$$
+
+We use this to explicitly construct a bijection as follows. Define $$ f \colon \{0,1\}^{\infty} \to [0,1]$$ as
+
+$$
+  f(x) = \begin{cases}
+    g(x) & \text{if } g(x) \notin \mathcal{D}, \\
+    d_{2n-1} & \text{if } g(x) = d_n \text{ for some } n \in \mathbb{N} \text{ and } x \text{ terminates in } 1, \text{ and} \\
+    d_{2n} & \text{if } g(x) = d_n \text{ for some } n \in \mathbb{N} \text{ and } x \text{ terminates in } 0.
+  \end{cases}
+$$
