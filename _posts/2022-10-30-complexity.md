@@ -74,4 +74,4 @@ One thing that stands out is that all NP-complete problems (and in particular, t
 ### References
 
 1. [Lectures by Prof. Paritosh Pandya, IITB](https://www.cse.iitb.ac.in/~pandya58/cs218m/algo.html)
-2. [*INtroduction to Algorithms*, CLRS](https://en.wikipedia.org/wiki/Introduction_to_Algorithms)
+2. [*Introduction to Algorithms*, CLRS](https://en.wikipedia.org/wiki/Introduction_to_Algorithms)
