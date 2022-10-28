@@ -46,7 +46,7 @@ Furthermore, each rational in the unit interval appears exactly once in the abov
 
 We are not entirely done yet. To go from the rationals in the unit interval to the set of all rationals, we require one crucial theorem. Stated plainly, a countable union of countable sets is countable. A proof for this theorem is beyond the scope of this post, but can be viewed online. Equipped with this knowledge, we extend our result to the whole of $$\mathbb{Q}$$. To do so, we define $$ Q_n := \mathbb{Q} \cap [n, n+1]$$ for $$n \in \mathbb{Z}$$. We have already shown that $$Q_0$$ is countable. A similar argument shows that $$Q_n$$ is countable for each $$n \in \mathbb{Z}$$. Furthermore, since $$\mathbb{Z}$$ is countable, $$\bigcup_{n \in \mathbb{Z}} Q_n$$ is a countable union. But, the latter is just $$\mathbb{Q}$$, and thus we have represented $$\mathbb{Q}$$ as a countable union of countable sets. It follows that $$\mathbb{Q}$$ is countable. 
 
-## Uncountability of Reals
+## Uncountability of the Reals and the Irrationals
 
 Countable sets are sets $$E$$ with cardinality $$\lvert E \rvert \leq \lvert \mathbb{N} \rvert$$. Naturally, a set $$E$$ is said to be **uncountable** if $$\lvert E \rvert > \lvert \mathbb{N} \rvert$$. Stated more explicitly, a set $$E$$ is uncountable if there is an injection from $$E$$ to $$\mathbb{N}$$ but no bijection from $$E$$ to $$\mathbb{N}$$. One interesting example of an uncountable set is the set of infinite binary strings, a proof of which uses Cantor's famous 'diagonal argument'.
 
@@ -86,3 +86,5 @@ $$
     d_{2n} & \text{if } g(x) = d_n \text{ for some } n \in \mathbb{N} \text{ and } x \text{ terminates in } 0.
   \end{cases}
 $$
+
+This is a bijection, proving that $$[0,1]$$. To go from $$[0,1]$$ to $$\mathbb{R}$$ is fairly straightforward, by considering a bijection from $$(0,1)$$ to $$\mathbb{R}$$. One possible bijection is $$ x \mapsto \tan\left( \pi x - \frac{pi}{2} \right). The set of irrationals is simply $$\mathbb{R} \setminus \mathbb{Q}$$. Since $$\mathbb{R}$$ is uncountable and $$\mathbb{Q}$$ is countable, it follows that the irrationals are uncountable (Hint: prove by contradiction).
