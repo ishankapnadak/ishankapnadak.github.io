@@ -15,9 +15,9 @@ One often encounters infinite sets in everyday life. The set of natural numbers,
 
 We assume that the reader is familiar with common notions in set theory (in particular, the reader is hopefully familiar with the notion of sets, their unions and intersections, functions, their injectivity, surjectivity, and bijectivity). Georg Cantor came up with the idea of using functions between sets to compare their cardinalities. For example, if we are able to find a bijection between two sets, it must be the case that they have the same ''number'' of elements, that is, they are equicardinal. Similarly, if we are able to find an injection from one set into another, it must be the case that the latter set has ''at least as many elements'' as the former. These notions are formalized as follows.
 
-1. Two sets $$A$$ and $$B$$ are **equicardinal** (denoted $$\lvert A \rvert = \lvert B \rvert$$) if there is a bijection from $$A$$ to $$B$$.
-2. $$B$$ has cardinality greater than or equal to $$A$$ (denoted $$\lvert A \rvert \geq \lvert B \rvert$$) if there is an injection from $$A$$ to $$B$$.
-3. $$B$$ has cardinality strictly greater than $$A$$ (denoted $$\lvert A \rvert > \lvert B \rvert$$) if there is an injection but no bijection from $$A$$ to $$B$$.  
+1. Two sets $$A$$ and $$B$$ are **equicardinal** (denoted $$\lvert A \rvert = \lvert B \rvert$$) if there is a bijection from $$A$$ to $$B$$
+2. $$B$$ has cardinality greater than or equal to $$A$$ (denoted $$\lvert A \rvert \geq \lvert B \rvert$$) if there is an injection from $$A$$ to $$B$$
+3. $$B$$ has cardinality strictly greater than $$A$$ (denoted $$\lvert A \rvert > \lvert B \rvert$$) if there is an injection but no bijection from $$A$$ to $$B$$
 
 With this in mind, we define countable sets as follows. A set $$E$$ is said to be **countably infinite** if $$E$$ and $$\mathbb{N}$$ are equicardinal. A set is said to be **countable** if it is either finite or countably infinite. Equivalently, a set $$E$$ is countable if $$\lvert E \rvert \leq \lvert \mathbb{N} \rvert$$. (Why?) 
 
@@ -34,4 +34,12 @@ $$
 
 It is easy to verify that the above is a bijection. In particular, it sends positive integers to even numbers and negative integers to odd numbers. It follows then that $$\lvert\mathbb{N}\rvert = \lvert\mathbb{Z}\rvert$$ and thus $$\mathbb{Z}$$ is countable. 
 
-We further claim that the set of rational numbers, $$\mathbb{Q}$$ is also countable. Proving this is slightly involved. We instead restrict our attention to the rationals in the unit interval, that is, the set $$\mathbb{Q} \cap [0,1]$$. 
+We further claim that the set of rational numbers, $$\mathbb{Q}$$ is also countable. Proving this is slightly involved. We first restrict our attention to the rationals in the unit interval, that is, the set $$\mathbb{Q} \cap [0,1]$$. We define a step-by-step method to generate a bijection between $$\mathbb{N}$$ and $$\mathbb{Q} \cap [0,1]$$ by maintaining a list of rationals. Consider the rational number $$\frac{p}{q}$$ where $$q \neq 0$$. We start with $$q = 1$$ and increment $$q$$ by $$1$$ at every step. For each value of $$q$$, we iterate over all integers $$0 \leq p \leq q$$, we add $$\frac{p}{q}$$ to the list if it is not already present. 
+
+We begin with an empty list and choose $$q = 1$$. For $$p = 0$$, the rational number we get is $$0$$, which is not included in the list, and hence is added to the list. Next, we take $$p = 1$$ to get the rational number $$1$$ and add this to the list too. Next, we update $$q$$ to $$2$$. Now, $$p = 0$$ gives us back $$0$$ and hence we move to $$p = 1$$. We get $$\frac{1}{2}$$ which is not present in the list, and hence add it to the list next. Proceeding this way, the rationals in the unit interval can be listed as
+
+$$
+  \left\{ 0, 1, \frac{1}{2}, \frac{1}{3}, \frac{2}{3}, \frac{1}{4}, \frac{3}{4}, \cdots \right\}.
+$$
+
+Furthermore, each rational in the unit interval appears exactly once in the above list and every nunber in the list is a rational in $$[0,1]$$. We can then clearly a bijection from $$\mathbb{Q} \cap [0,1]$$ to $$\mathbb{N}$$ mapping $$\frac{p}{q}$$ to its index in the above list. This proves that $$\mathbb{Q} \cap [0,1]$$ are countable. 
