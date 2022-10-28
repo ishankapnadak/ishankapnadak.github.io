@@ -11,7 +11,7 @@ excerpt: 'On countable and uncountable sets and their cardinalities'
 
 One often encounters infinite sets in everyday life. The set of natural numbers, the set of real numbers, and so on. Although these sets are infinite, it is natural to ask if one is ''bigger'' than the other. Are two infinite sets of the same size? In the case of finite sets, comparing two cardinalities is trivial. For example, the set $$\{A,B\}$$ is smaller than the set $$\{\alpha, \beta, \gamma\}$$ since the former has two elements whereas the latter has three. Easy so far. How do we compare the size of the set of natural numbers with, say, the set of integers? One may argue that the set of natural numbers is a proper subset of the set of integers and thus it ought to be a smaller set than the set of integers. However, another person may tell you that every natural number can be paired up with a unique integer. It makes sense then that the two sets are somehow of equal size. Although counterintuitive, we use this latter definition to formalize the notion of cardinalities for infinite sets. Under this framework then, the sets $$\mathbb{N}$$ and $$\mathbb{Z}$$ are equicardinal despite one being a proper subset of the other. We formalize these ideas below and analyze the cardinalities of some commonly encountered infinite sets.
 
-### Comparing Cardinalities of two sets
+## Comparing Cardinalities of two sets
 
 We assume that the reader is familiar with common notions in set theory (in particular, the reader is hopefully familiar with the notion of sets, their unions and intersections, functions, their injectivity, surjectivity, and bijectivity). Georg Cantor came up with the idea of using functions between sets to compare their cardinalities. For example, if we are able to find a bijection between two sets, it must be the case that they have the same ''number'' of elements, that is, they are equicardinal. Similarly, if we are able to find an injection from one set into another, it must be the case that the latter set has ''at least as many elements'' as the former. These notions are formalized as follows.
 
@@ -21,7 +21,7 @@ We assume that the reader is familiar with common notions in set theory (in part
 
 With this in mind, we define countable sets as follows. A set $$E$$ is said to be **countably infinite** if $$E$$ and $$\mathbb{N}$$ are equicardinal. A set is said to be **countable** if it is either finite or countably infinite. Equivalently, a set $$E$$ is countable if $$\lvert E \rvert \leq \lvert \mathbb{N} \rvert$$. (Why?) 
 
-### Countability of the Integers and the Rationals
+## Countability of the Integers and the Rationals
 
 Let us compare the sizes of $$\mathbb{N}$$ and $$\mathbb{Z}$$. We had claimed earlier that they are equicardinal. To prove this, all we have to do is establish a bijection between the two sets. We define $$f \colon \mathbb{Z} \to \mathbb{N}$$ as
 
@@ -46,7 +46,7 @@ Furthermore, each rational in the unit interval appears exactly once in the abov
 
 We are not entirely done yet. To go from the rationals in the unit interval to the set of all rationals, we require one crucial theorem. Stated plainly, a countable union of countable sets is countable. A proof for this theorem is beyond the scope of this post, but can be viewed online. Equipped with this knowledge, we extend our result to the whole of $$\mathbb{Q}$$. To do so, we define $$ Q_n := \mathbb{Q} \cap [n, n+1]$$ for $$n \in \mathbb{Z}$$. We have already shown that $$Q_0$$ is countable. A similar argument shows that $$Q_n$$ is countable for each $$n \in \mathbb{Z}$$. Furthermore, since $$\mathbb{Z}$$ is countable, $$\bigcup_{n \in \mathbb{Z}} Q_n$$ is a countable union. But, the latter is just $$\mathbb{Q}$$, and thus we have represented $$\mathbb{Q}$$ as a countable union of countable sets. It follows that $$\mathbb{Q}$$ is countable. 
 
-### Uncountability of Reals
+## Uncountability of Reals
 
 Countable sets are sets $$E$$ with cardinality $$\lvert E \rvert \leq \lvert \mathbb{N} \rvert$$. Naturally, a set $$E$$ is said to be **uncountable** if $$\lvert E \rvert > \lvert \mathbb{N} \rvert$$. Stated more explicitly, a set $$E$$ is uncountable if there is an injection from $$E$$ to $$\mathbb{N}$$ but no bijection from $$E$$ to $$\mathbb{N}$$. One interesting example of an uncountable set is the set of infinite binary strings, a proof of which uses Cantor's famous 'diagonal argument'.
 
