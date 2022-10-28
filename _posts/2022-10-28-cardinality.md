@@ -89,7 +89,7 @@ $$
 
 This is a bijection, proving that $$[0,1]$$. To go from $$[0,1]$$ to $$\mathbb{R}$$ is fairly straightforward, by considering a bijection from $$(0,1)$$ to $$\mathbb{R}$$. One possible bijection is $$ x \mapsto \tan\left( \pi x - \frac{pi}{2} \right)$$. The set of irrationals is simply $$\mathbb{R} \setminus \mathbb{Q}$$. Since $$\mathbb{R}$$ is uncountable and $$\mathbb{Q}$$ is countable, it follows that the irrationals are uncountable (Hint: prove by contradiction).
 
-## Aleph Numbers and the Continuum Hypothesis
+## Transfinite Cardinals and the Continuum Hypothesis
 
 Set theory often uses special symbols to denote infinities. More specifically, we use ''transfinite cardinals'' - a sequence of numbers that denote the cardinality of infinite, well-orderable sets. We omit the well-orderable part for now. The cardinality of the natural numbers is denoted as $$\aleph_0$$ and is, in some sense, the ''smallest'' infinity. More precisely, any infinite set is either in bijection with the natural numbers or is uncountable (that is, there is no infinite set that is 'strictly smaller' than the naturals). The next larger cardinality of an infinite well-orderable set is denoted $$\aleph_1$$, followed by $$\aleph_2$$ and so on. 
 
