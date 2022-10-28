@@ -45,3 +45,13 @@ Let $$L_1, L_2$$ be two decision problems. A function $$f \colon \{0,1\}^* \to \
 If such an $$f$$ exists we write $$L_1 \leq_p L_2$$. Intuitively, this means that any instance of $$L_1$$ can be 'rephrased' to an instance of $$L_2$$ in polynomial time. Moreover, providing an answer to $$f(x) \in L_2$$ instantly provides us an answer to $$x \in L_1$$. If we are able to find a polynomial-time algorithm $$L_2$$, this reduction lends itself to give us a polynomial time algorithm for $$L_1$$ as well. This is formalized as follows.
 
 **Lemma.** If $$L_1, L_2 \subseteq \{0,1\}^*$$ are languages such that $$L_1 \leq_p L_2$$, then $$L_2 \in \text{P} \implies L_1 \in \text{P}$$.
+
+With this, we define NP-complete problems as follows. A language $$L \subseteq \{0,1\}^*$$ is NP-complete if
+1. $$L \in \text{NP}$$, and
+2. $$L^{\prime} \leq_p L$$ for every $$L^{\prime} \in \text{NP}$$. 
+
+If a language $$L \subseteq \{0,1\}^*$$ satisfies only condition 1 but not necessarily 2, we say that $$L$$ is NP-hard. We let NPC be the class of all NP-complete problems. The question P $$=$$ NP is closely related to solving NP-complete problems through the following theorem (the proof of which is left as an exercise). 
+
+**Theorem.** If an NP-complete problem is polynomial-time solvable, then P $$=$$ NP. Equivalently, if any problem in NP is not polynomial-time solvable, then no NP-complete problem is polynomial-time solvable. 
+
+This theorem reinforces the idea that NP-complete problems are the 'hardest' NP problems. 
