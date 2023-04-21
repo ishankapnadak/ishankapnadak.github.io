@@ -1,10 +1,9 @@
 ---
-title: 'Polyrhythms and Number Theory'
+title: 'Polyrhythms'
 date: 2023-04-21
 permalink: /posts/2023/04/polyrhythms/
 tags:
   - math
-  - number theory
   - music
 katex: true
 excerpt: ''
@@ -24,15 +23,15 @@ $$ 1 \quad e \quad \& \quad a \\
 
 Now, to play the $3$ part of our polyrhythm, we simply play the first note of each group (note that there are $3$ of them, each of the same duratoin). Let's highlight these in blue (since the $3$ is our "blue" note). We now have 
 
-$$ \textcolor{blue}{1} \quad e \quad \& \quad a \\
-\textcolor{blue}{2} \quad e \quad \& \quad a \\
-\textcolor{blue}{3} \quad e \quad \& \quad a$$
+$$ {\color{blue}{1}} \quad e \quad \& \quad a \\
+{\color{blue}{2}} \quad e \quad \& \quad a \\
+{\color{blue}{3}} \quad e \quad \& \quad a$$
 
 Now, to play the $4$ part of our polyrhythm - we have a total of $12$ sixteenth notes to work wth. Since we want to divide this into $4$ equal parts, each part occupies $3$ sixteenth notes. (It is interesting to see that the numbers somehow switched up - each $4$-division occupies $3$ blocks and each $3$-division occupies $4$ blocks). Thus, starting at $1$, we color every $3^{\text{rd}}$ note with the color red (since the $4$ is our "red" note). The first note appears in both the sequences, so let's just color it pink. We have
 
-$$ \textcolor{fuchsia}{1} \quad e \quad \& \quad \textcolor{red}{a} \\
-\textcolor{blue}{2} \quad e \quad \textcolor{red}{\&} \quad a \\
-\textcolor{blue}{3} \quad \textcolor{red}{e} \quad \& \quad a$$
+$$ {\color{fuchsia}{1}} \quad e \quad \& \quad {\color{red}{a}} \\
+{\color{blue}{2}} \quad e \quad {\color{red}{\&}} \quad a \\
+{\color{blue}{3}} \quad {\color{red}{e}} \quad \& \quad a$$
 
 And there we have it - our $(4,3)$ polyrhythm! There are a lot of cool demonstrations of this polyrhythm online that are worth checking out. [Here](https://www.youtube.com/shorts/DuG0oAEF2hE) is one! A couple of things to note:
 1. The $1$ is the only note that coincides in the entire pattern (this is a coincidence of $3,4$ being coprime)
@@ -50,19 +49,19 @@ $$ 1 \quad e \quad \& \quad a \\
 
 As before, we color all the numbers with a blue since these are precisely the "blue" notes in our pattern - 
 
-$$ \textcolor{blue}{1} \quad e \quad \& \quad a \\
-\textcolor{blue}{2} \quad e \quad \& \quad a \\
-\textcolor{blue}{3} \quad e \quad \& \quad a \\
-\textcolor{blue}{4} \quad e \quad \& \quad a \\
-\textcolor{blue}{5} \quad e \quad \& \quad a$$
+$$ {\color{blue}{1}} \quad e \quad \& \quad a \\
+{\color{blue}{2}} \quad e \quad \& \quad a \\
+{\color{blue}{3}} \quad e \quad \& \quad a \\
+{\color{blue}{4}} \quad e \quad \& \quad a \\
+{\color{blue}{5}} \quad e \quad \& \quad a$$
 
 For the $4$ part, we now start with the $1$ and color every *fifth* note red. This gives us
 
-$$ \textcolor{fuchsia}{1} \quad e \quad \& \quad a \\
-\textcolor{blue}{2} \quad \textcolor{red}{e} \quad \& \quad a \\
-\textcolor{blue}{3} \quad e \quad \textcolor{red}{\&} \quad a \\
-\textcolor{blue}{4} \quad e \quad \& \quad \textcolor{red}{a} \\
-\textcolor{blue}{5} \quad e \quad \& \quad a$$
+$$ {\color{fuchsia}{1}} \quad e \quad \& \quad a \\
+{\color{blue}{2}} \quad {\color{red}{e}} \quad \& \quad a \\
+{\color{blue}{3}} \quad e \quad {\color{red}{\&}} \quad a \\
+{\color{blue}{4}} \quad e \quad \& \quad {\color{red}{a}} \\
+{\color{blue}{5}} \quad e \quad \& \quad a$$
 
 And we have our $(4,5)$ polyrhythm! Put in words, you play each quarter note, the $e$ of the $2$, the $\&$ of the $3$, and the $a$ of the $4$! Again we observe that $4$ red notes being played are $1,e,\&,a$. Moreover, they appear in order this time - that is the $1$ is played first, followed by the $e,\&,a$ in order. Recall that $(4,3)$ had the reverse order! We played the $1$ first, followed by the $e,\&,a$ in reverse order. As we shall see soon - these are the only two patterns we really need to remember. Let us go a step further!
 
@@ -81,22 +80,22 @@ $$ 1 \quad e \quad \& \quad a \\
 As before, we color all the numbers with a blue since these are precisely the "blue" notes in our pattern - 
 
 $$ {\color{blue}{1}} \quad e \quad \& \quad a \\
-\textcolor{blue}{2} \quad e \quad \& \quad a \\
-\textcolor{blue}{3} \quad e \quad \& \quad a \\
-\textcolor{blue}{4} \quad e \quad \& \quad a \\
-\textcolor{blue}{5} \quad e \quad \& \quad a \\
-\textcolor{blue}{6} \quad e \quad \& \quad a \\
-\textcolor{blue}{7} \quad e \quad \& \quad a$$
+{\color{blue}{2}} \quad e \quad \& \quad a \\
+{\color{blue}{3}} \quad e \quad \& \quad a \\
+{\color{blue}{4}} \quad e \quad \& \quad a \\
+{\color{blue}{5}} \quad e \quad \& \quad a \\
+{\color{blue}{6}} \quad e \quad \& \quad a \\
+{\color{blue}{7}} \quad e \quad \& \quad a$$
 
 For the $4$ part, we now start with the $1$ and color every *seventh* note red. This gives us
 
-$$ \textcolor{fuchsia}{1} \quad e \quad \& \quad a \\
-\textcolor{blue}{2} \quad e \quad \& \quad \textcolor{red}{a} \\
-\textcolor{blue}{3} \quad e \quad \& \quad a \\
-\textcolor{blue}{4} \quad e \quad \textcolor{red}{\&} \quad a \\
-\textcolor{blue}{5} \quad e \quad \& \quad a \\
-\textcolor{blue}{6} \quad \textcolor{red}{e} \quad \& \quad a \\
-\textcolor{blue}{7} \quad e \quad \& \quad a$$
+$$ {\color{fuchsia}{1}} \quad e \quad \& \quad a \\
+{\color{blue}{2}} \quad e \quad \& \quad {\color{red}{a}} \\
+{\color{blue}{3}} \quad e \quad \& \quad a \\
+{\color{blue}{4}} \quad e \quad {\color{red}{\&}} \quad a \\
+{\color{blue}{5}} \quad e \quad \& \quad a \\
+{\color{blue}{6}} \quad {\color{red}{e}} \quad \& \quad a \\
+{\color{blue}{7}} \quad e \quad \& \quad a$$
 
 Notice that the order of the red notes is now flipped again! This pattern is actually very similar to the $(4,3)$ pattern - it's in fact the same pattern of red notes with an additional quarter note space between each red note! This is not surprising since $7 = 3 + 4$ (hmm okay how does this help?) Let's go the distance and generalize this!
 
@@ -105,3 +104,43 @@ Notice that the order of the red notes is now flipped again! This pattern is act
 Since $\text{gcd}(4,n) = 1$, we have only two cases
 1. $n = 4k + 1$ where $k > 0$, and
 2. $n = 4k+3$ where $k \geq 0$. 
+
+Consider the case $n = 4k+1$. These are polyrhythms of the form $(4,5)$, $(4,9)$, etc. We claim that the order of the last $3$ red notes for all such polyrhythms would be $e$ followed by $\&$ followed by $a$. (This is actually trivial to see once we calculate where the red notes are to be placed). So, where are the red notes going to be placed exactly? The first red note is always on the $1$. The next one would be the $(n+1)^{\text{th}}$ sixteenth note in the sequence. Since $n = 4k+1$, the next red note occurs as the $(4k+2)^{\text{th}}$ sixteenth note in the pattern. The first $4k$ sixteenth notes contribute to the first $k$ quarter notes. Thus the second red note occurs at the $2^{\text{nd}}$ sixteenth note after $k$ quarter notes. This is precisely the $e$ of $(k+1)$. Similarly, the $3^{\text{rd}}$ red would be the $(2n+1)^{\text{th}}$ sixteenth note, or the $(8k+3)^{\text{th}}$ sixteenth note. This is precisely the $\&$ of $2k+1$. Finally, the last red note occurs at the $(3n+1)^{\text{th}}$ position, which is the $(12k+4)^{\text{th}}$ position, which is precisely the $a$ of $3k+1$. And we are done! This describes the $(4,n)$ polyrhythm for any $n$ of the form $4k+1$! As a slightly trickier example, we take $n = 13$ which gives us $k = 3$. Filling in the entries according to our calculations, we have the following rhythmic table for the $(4,13)$ polyrhythm. 
+
+$$ {\color{fuchsia}{1}} \quad e \quad \& \quad a \\
+2 \quad e \quad \& \quad a \\
+3 \quad e \quad \& \quad a \\
+{\color{blue}{4}} \quad {\color{red}{e}} \quad \& \quad a \\
+5 \quad e \quad \& \quad a \\
+6 \quad e \quad \& \quad a \\
+{\color{blue}{7}} \quad e \quad {\color{red}{\&}} \quad a \\
+8 \quad e \quad \& \quad a \\
+9 \quad e \quad \& \quad a \\
+{\color{blue}{10}}} \quad e \quad \& \quad {\color{red}{a}} \\
+11 \quad e \quad \& \quad a \\
+12 \quad e \quad \& \quad a \\
+13 \quad e \quad \& \quad a$$
+
+I encourage you to actually play this rhythm out and verify if it is really a $(4,13)$ polyrhythm!
+
+Moving on to the case where $n = 4k+3$. We have the exact same argument as above. In this case, the second red note is at the $(n+1)^{\text{th}}$ position, which is the $(4k+4)^{\text{th}}$ position, which is the $a$ of $k+1$. The third red note is at the $(2n+1)^{\text{th}}$ position, which is the $(8k+7)^{\text{th}}$ position, which is the $\&$ of $2(k+1)$. The final red note is at the $(3n+1)^{\text{th}}$ position, which is the $(12k+10)^{\text{th}}$ position, which is the $e$ of $3(k+1)$. Now, let us take a $(4,15)$ polyrhythm (phew!) which gives us $n = 15$ and $k = 3$. Filling out our entries, we get the following humongous rhythmic table!
+
+$$ {\color{fuchsia}{1}} \quad e \quad \& \quad a \\
+{\color{blue}{2}} \quad e \quad \& \quad a \\
+{\color{blue}{3}} \quad e \quad \& \quad a \\
+{\color{blue}{4}} \quad e \quad \& \quad {\color{red}{a}} \\
+{\color{blue}{5}} \quad e \quad \& \quad a \\
+{\color{blue}{6}} \quad e \quad \& \quad a \\
+{\color{blue}{7}} \quad e \quad \& \quad a \\
+{\color{blue}{8}} \quad e \quad {\color{red}{\&}} \quad a \\
+{\color{blue}{9}} \quad e \quad \& \quad a \\
+{\color{blue}{10}} \quad e \quad \& \quad a \\
+{\color{blue}{11}} \quad e \quad \& \quad a \\
+{\color{blue}{12}} \quad {\color{red}{e}} \quad \& \quad a \\
+{\color{blue}{13}} \quad e \quad \& \quad a \\
+{\color{blue}{14}} \quad e \quad \& \quad a \\
+{\color{blue}{15}} \quad e \quad \& \quad a$$
+
+And we are done! Believe it or not, we have actually analyzed every polyrhythm of the form $(4,n)$! As an exercise, I encourage you all to analyze polyrhythms of the form $(3,n)$. Consider two cases - $n = 3k+1$ and $n = 3k+2$. In particular, how does the rhythmic pattern of the $(3,4)$ polyrhythm relate to the one of the $(4,3)$ one we just saw?
+
+For those interested, [here](https://polyvisualiser.com/#close) is a cool tool that lets you visualize different polyrhythms. Also, [here](https://www.youtube.com/watch?v=IU4vfv0onWI) is a video that talks about approximating more complex polyrhythms in terms of simpler ones. 
