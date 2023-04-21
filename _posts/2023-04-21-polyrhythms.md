@@ -80,7 +80,7 @@ $$ 1 \quad e \quad \& \quad a \\
 
 As before, we color all the numbers with a blue since these are precisely the "blue" notes in our pattern - 
 
-$$ \textcolor{blue}{1} \quad e \quad \& \quad a \\
+$$ <span style="color: blue">1</span>span \quad e \quad \& \quad a \\
 \textcolor{blue}{2} \quad e \quad \& \quad a \\
 \textcolor{blue}{3} \quad e \quad \& \quad a \\
 \textcolor{blue}{4} \quad e \quad \& \quad a \\
