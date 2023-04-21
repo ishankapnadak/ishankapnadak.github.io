@@ -34,7 +34,7 @@ $$ {\color{fuchsia}{1}} \quad e \quad \& \quad {\color{red}{a}} \\
 {\color{blue}{3}} \quad {\color{red}{e}} \quad \& \quad a$$
 
 And there we have it - our $(4,3)$ polyrhythm! There are a lot of cool demonstrations of this polyrhythm online that are worth checking out. [Here](https://www.youtube.com/shorts/DuG0oAEF2hE) is one! A couple of things to note:
-1. The $1$ is the only note that coincides in the entire pattern (this is a coincidence of $3,4$ being coprime)
+1. The $1$ is the only note that coincides in the entire pattern (this is a consequence of $3,4$ being coprime)
 2. The $4$ notes being played as part of the $4$-rhythm are exactly the first, second, third, and fourth sixteenth notes but permuted (note that we play the $1$, the $e$ of the $3$, the $\&$ of the $2$, and the $a$ of the $1$). This will be the case for all polyrhythms involving $4$! 
 
 ### The $(4,5)$ polyrhythm
