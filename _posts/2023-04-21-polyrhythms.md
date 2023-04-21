@@ -116,7 +116,7 @@ $$ {\color{fuchsia}{1}} \quad e \quad \& \quad a \\
 {\color{blue}{7}} \quad e \quad {\color{red}{\&}} \quad a \\
 8 \quad e \quad \& \quad a \\
 9 \quad e \quad \& \quad a \\
-{\color{blue}{10}}} \quad e \quad \& \quad {\color{red}{a}} \\
+{\color{blue}{10}} \quad e \quad \& \quad {\color{red}{a}} \\
 11 \quad e \quad \& \quad a \\
 12 \quad e \quad \& \quad a \\
 13 \quad e \quad \& \quad a$$
