@@ -2,7 +2,7 @@
 title: "Micro-Multiphysics Agent-Based Modeling of Human Bone Remodeling: Exploring the Dual Action Effect of Romosozumab"
 collection: research
 permalink: /research/zurich
-excerpt: 'My internship at the Laboratory for Bone Biomechanics at ETH Zürich in the summer of 2022'
+excerpt: ''
 venue: "ETH Zürich"
 ---
 
