@@ -48,7 +48,7 @@ We are not entirely done yet. To go from the rationals in the unit interval to t
 
 ## Uncountability of the Reals and the Irrationals
 
-Countable sets are sets $$E$$ with cardinality $$\lvert E \rvert \leq \lvert \mathbb{N} \rvert$$. Naturally, a set $$E$$ is said to be **uncountable** if $$\lvert E \rvert > \lvert \mathbb{N} \rvert$$. Stated more explicitly, a set $$E$$ is uncountable if there is an injection from $$E$$ to $$\mathbb{N}$$ but no bijection from $$E$$ to $$\mathbb{N}$$. One interesting example of an uncountable set is the set of infinite binary strings, a proof of which uses Cantor's famous 'diagonal argument'.
+Countable sets are sets $$E$$ with cardinality $$\lvert E \rvert \leq \lvert \mathbb{N} \rvert$$. Naturally, a set $$E$$ is said to be **uncountable** if $$\lvert E \rvert > \lvert \mathbb{N} \rvert$$. Stated more explicitly, a set $$E$$ is uncountable if there is an injection from $$\mathbb{N}$$ to $$E$$ but no bijection from $$\mathbb{N}$$ to $$E$$. One interesting example of an uncountable set is the set of infinite binary strings, a proof of which uses Cantor's famous 'diagonal argument'.
 
 **Theorem.** The set of all infinite binary strings $$\{0, 1\}^{\infty}$$ is uncountable.
 
