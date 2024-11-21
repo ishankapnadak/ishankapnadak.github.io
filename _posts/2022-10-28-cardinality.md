@@ -16,8 +16,8 @@ One often encounters infinite sets in everyday life. The set of natural numbers,
 We assume that the reader is familiar with common notions in set theory (in particular, the reader is hopefully familiar with the notion of sets, their unions and intersections, functions, their injectivity, surjectivity, and bijectivity). Georg Cantor came up with the idea of using functions between sets to compare their cardinalities. For example, if we are able to find a bijection between two sets, it must be the case that they have the same ''number'' of elements, that is, they are equicardinal. Similarly, if we are able to find an injection from one set into another, it must be the case that the latter set has ''at least as many elements'' as the former. These notions are formalized as follows.
 
 1. Two sets $$A$$ and $$B$$ are **equicardinal** (denoted $$\lvert A \rvert = \lvert B \rvert$$) if there is a bijection from $$A$$ to $$B$$
-2. $$B$$ has cardinality greater than or equal to $$A$$ (denoted $$\lvert A \rvert \geq \lvert B \rvert$$) if there is an injection from $$A$$ to $$B$$
-3. $$B$$ has cardinality strictly greater than $$A$$ (denoted $$\lvert A \rvert > \lvert B \rvert$$) if there is an injection but no bijection from $$A$$ to $$B$$
+2. $$B$$ has cardinality greater than or equal to $$A$$ (denoted $$\lvert B \rvert \geq \lvert A \rvert$$) if there is an injection from $$A$$ to $$B$$
+3. $$B$$ has cardinality strictly greater than $$A$$ (denoted $$\lvert B \rvert > \lvert A \rvert$$) if there is an injection but no bijection from $$A$$ to $$B$$
 
 With this in mind, we define countable sets as follows. A set $$E$$ is said to be **countably infinite** if $$E$$ and $$\mathbb{N}$$ are equicardinal. A set is said to be **countable** if it is either finite or countably infinite. Equivalently, a set $$E$$ is countable if $$\lvert E \rvert \leq \lvert \mathbb{N} \rvert$$. (Why?) 
 
